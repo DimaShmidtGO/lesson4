@@ -1,0 +1,354 @@
+body {
+  background: #e5e5e5;
+  font-family: "Inter", sans-serif;
+  margin: 80px 80px;
+}
+.version {
+  font-size: 40px;
+  color: #0b2239;
+  opacity: 0.3;
+  margin: 0;
+}
+h1 {
+  color: #0b2239;
+  font-size: 110px;
+  font-weight: 900;
+  margin: 0;
+}
+.link,
+a {
+  font-size: 40px;
+  font-weight: 400;
+  color: #0b2239;
+  opacity: 0.3;
+  margin: 0;
+}
+.examples {
+  margin-top: 197px;
+  width: 1400px;
+}
+.examples p {
+  color: #0b2239;
+  opacity: 0.3;
+}
+.cookies {
+  margin-top: 228px;
+  margin-left: 24px;
+  background-color: #0b2239;
+  height: 72px;
+  width: 1350px;
+  position: absolute;
+}
+.cookies-text {
+  margin: 20px 398px 20px 120px;
+  color: #ffffff;
+  font-size: 13px;
+  width: 800px;
+  height: 40px;
+  position: absolute;
+}
+.cookie-setting {
+  margin: 26px 255px 26px 1000px;
+  position: absolute;
+}
+.cookie-setting a {
+  color: #4ad295;
+  font-weight: 600;
+  font-size: 13px;
+  opacity: 1;
+}
+.accept-cookies {
+  margin: 18px 120px 18px 1130px;
+  background-color: #4ad295;
+  border-radius: 2px;
+  width: 130px;
+  height: 36px;
+  left: 116px;
+  top: 0px;
+  color: #ffffff;
+  border-color: #4ad295;
+}
+.agree-cookies {
+  margin: 324px 24px 72px 24px;
+  width: 1350px;
+  height: 52px;
+  background-color: #2b2627;
+}
+.info-icon {
+  margin: 18px 1078px 18px 345px;
+  position: absolute;
+}
+.agree-cookies p {
+  position: absolute;
+  color: #ffffff;
+  margin: 18px 381px 18px 369px;
+  width: 689px;
+  font-size: 13px;
+  opacity: 1;
+}
+.agree-cookies p a {
+  font-size: 13px;
+  color: #ffffff;
+  opacity: 1;
+}
+.icon-cross {
+  position: absolute;
+  margin: 18px 345px 18px 1010px;
+}
+.bannersmall-first {
+  background-color: #ffffff;
+  width: 560px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15),
+    0px 0px 1px rgba(96, 96, 96, 0.1);
+  border-radius: 16px;
+  margin-left: 25px;
+}
+.vector {
+  padding: 8px 8px;
+  border-radius: 10px;
+  background-color: #ea4c891a;
+}
+.vector-text {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.vector-text a {
+  font-size: 14px;
+  color: #ff4b90;
+  opacity: 1;
+}
+.buttomvector-decline {
+  width: 63px;
+  height: 28px;
+  background-color: rgba(13, 12, 34, 0.05);
+  border-color: rgba(13, 12, 34, 0.05);
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  padding: 4px 10px;
+  margin: 0px 10px;
+}
+.buttomvector-allow {
+  width: 52px;
+  height: 28px;
+  background-color: #ea4c89;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 4px 10px;
+  border-color: #ea4c89;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+.bannersmall-second {
+  background-color: #26262b;
+  width: 560px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  margin-left: 25px;
+  margin-top: 24px;
+  border-radius: 10px;
+}
+.text-okay {
+  font-size: 12.5px;
+  color: #ffffff;
+}
+.text-okay a {
+  color: rgb(230, 111, 31);
+  opacity: 1;
+  font-size: 14px;
+}
+.button-okay {
+  width: 49px;
+  height: 28px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin: 0px 10px;
+  color: #26262b;
+  border-color: #ffffff;
+}
+.cookienotice {
+  width: 360px;
+  height: 206px;
+  background-color: rgba(28, 37, 64, 0.95);
+  padding: 24px;
+  margin: 72px 25px;
+  border-radius: 6px;
+}
+.cookienotice-text {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 15px 0px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+.cookienotice-text a {
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 1;
+}
+.manageandbutton {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.cookienotice p {
+  font-weight: 550;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+.buttoncookie-accept {
+  padding: 8px 20px;
+  width: 90px;
+  height: 32px;
+  margin-left: 75px;
+  margin-top: 10px;
+  background-color: #09b3af;
+  border-radius: 6px;
+  border-color: #09b3af;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.cookiesettings {
+  padding: 16px;
+  width: 360px;
+  height: 170px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin: 72px 25px;
+  padding: 24px;
+}
+.container {
+  display: flex;
+}
+.cookiesettings-text {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #687f8c;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.buttoncookie-settings {
+  width: 160px;
+  height: 32px;
+  background: #eaf0f4;
+  border-radius: 6px;
+  border-color: #eaf0f4;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #687f8c;
+  margin-right: 30px;
+}
+.buttoncookie-settings-accept {
+  width: 160px;
+  height: 32px;
+  background: #40c1a7;
+  border-radius: 6px;
+  border-color: #40c1a7;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+.pre-lastbanner {
+  width: 320px;
+  height: 260px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  margin-left: 25px;
+}
+.pre-lastbanner h2 {
+  font-family: "Khula", sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+  color: #15295a;
+  margin-top: 5px;
+}
+.pre-lastbanner p {
+  font-size: 17px;
+  text-align: center;
+  width: 256px;
+  height: 72px;
+  font-family: "Inter", sans-serif;
+  color: #15295a;
+  margin: 0;
+}
+.buttonpre-last {
+  width: 121px;
+  height: 44px;
+  background: #4a7eff;
+  border-radius: 43px;
+  border-color: #4a7eff;
+  margin-top: 40px;
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+.last-banner {
+  width: 320px;
+  height: 137px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  padding: 16px;
+}
+.lastflex-banners {
+  display: flex;
+}
+.last-banner p {
+  font-family: "Inconsolata", monospace;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 600;
+}
+.last-banner a {
+  display: flex;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 8px;
+  color: #6666ff;
+  font-family: "Inconsolata", monospace;
+  opacity: 1;
+  text-decoration: none;
+}
+.button-last {
+  width: 64px;
+  height: 33px;
+  background: #6666ff;
+  margin: 0px 8px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 4px;
+  border-color: #6666ff;
+}
+.last-banner div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
